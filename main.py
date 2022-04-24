@@ -10,9 +10,6 @@ def createFibSeq():
         num02 = result
         print(result)
 
-def main(): # main function, gets called at start
-    createFibSeq()
-
 while True: # infinite loop, keeps window open
     system("clear")
     createFibSeq()
