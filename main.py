@@ -1,5 +1,3 @@
-from os import system
-
 def createFibSeq():
     num01 = 0
     num02 = 1
@@ -10,7 +8,4 @@ def createFibSeq():
         num02 = result
         print(result)
 
-while True: # infinite loop, keeps window open
-    system("clear")
-    createFibSeq()
-    input()
+createFibSeq()
